@@ -1,6 +1,6 @@
 body {
     background-color: lightgrey;
-    font-family: 'Edu NSW ACT Foundation', cursive;
+    font-family: 'Dosis', sans-serif;
 }
 
 #container {
@@ -17,20 +17,27 @@ h1 {
     text-transform: uppercase;
     font-weight: bolder;
     font-size: 2em;
-    text-align: start;
-    padding-left: 0.5em;
-    padding-right: 0.5em;
-    padding-top: 0.5em;
+    text-align: center;
+    padding-left: 0.3em;
+    padding-right: 0.3em;
+    padding-top: 0.3em;
+    padding-bottom: 0.3em;
+    border: 2px ridge #2D4A60;
+    margin: 10px 10px 0px 10px;
+    border-bottom: hidden;
 }
 
 h2 {
     text-transform: uppercase;
     font-weight: bolder;
     font-size: 1em;
-    text-align: start;
-    padding-left: 1em;
-    padding-bottom: 1em;
+    text-align: center;
+    padding-bottom: 0.3em;
+    border: 2px solid #2D4A60;
+    border-top: hidden;
+    margin: 0px 90px 10px 90px;
 }
+
 
 .leftside {
     width: 30%;
@@ -38,6 +45,8 @@ h2 {
     padding-top: 15px;
     padding-right: 20px;
     padding-left: 20px;
+    color : white;
+    text-align: start;
 }
 
 .rightside {
@@ -45,11 +54,78 @@ h2 {
     background-color: #EBF0F1;
 }
 
-img {
+.profilepic {
     border-radius: 1.2em;
     width: 90%;
 }
 
-h3 {
+.h3-leftside {
     color: #EBF0F1 ;
+    text-transform: uppercase;
+    border: 1px solid white;
+    font-weight: bold;
+    padding: 5px;
+    text-align: start;
+    margin: 15px 0px 15px 0px;
+}
+
+.Profiltitles {
+    text-transform: uppercase;
+    text-decoration: underline;
+    padding: 5px 0px 5px 0px;
+    font-weight: bold;
+}
+
+.headertext {
+    padding: 0px 15px 0px 15px;
+}
+
+h3 {
+    color: #2D4A60;
+    text-transform: uppercase;
+    border: 2px solid #2D4A60;
+    font-weight: bold;
+    padding: 5px;
+    text-align: start;
+    margin: 15px 10px 15px 10px;
+}
+
+.ExpPro {
+    width: 100%;
+    height: auto;
+    display: flex;
+}
+
+.dates {
+    width: 30%;
+    text-align: start;
+    margin: 0px 0px 0px 15px;
+    color: rgba(128, 128, 128, 0.5);
+    font-size: 0.9em;
+}
+
+.postes {
+    width: 70%;
+    text-align: start;
+    line-height: 1.2em;
+}
+
+strong {
+    font-weight: bold;
+}
+
+.description-postes {
+    color: grey;
+    font-size: 0.8em;
+    padding:0px 10px 0px 0px;
+    line-height: 1em;
+    margin-bottom: 10px;
+}
+
+.societes {
+    font-size: 0.9em;
+}
+
+img {
+    color: #fff;
 }
